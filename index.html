@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle{
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+            border-radius: 800px;
+            margin: 20px;
+        }
+        .diamond {
+      width: 150px;
+      height: 150px;
+      background: teal;
+      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+      margin: 20px;
+    }
+    .rectangle{
+            background-color: green;
+            height: 90px;
+            width: 180px;
+            margin: 20px;
+    }
+    .sq {
+            background-color: blue;
+            height: 150px;
+            width: 150px;
+        }
+        .triangle {
+      width: 0;
+      height: 0;
+      border-left: 75px solid transparent;
+      border-right: 75px solid transparent;
+      border-bottom: 150px solid teal;  
+    }
+    </style>
+</head>
+<body>
+    <div class="circle"></div>
+    <div class="diamond" aria-hidden="true"></div>
+    <div class="rectangle"></div>
+    <div class="sq"></div>
+    <div class="triangle"></div>
+</body>
+</html>
